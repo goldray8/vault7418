@@ -1,0 +1,14 @@
+/Users/denismijatovic/vault7418/spl-token/target/release/deps/libserde-c93756b2a1271067.rmeta: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/integer128.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/mod.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/de.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/ser.rs /Users/denismijatovic/vault7418/spl-token/target/release/build/serde-82c0ae180a45df8e/out/private.rs
+
+/Users/denismijatovic/vault7418/spl-token/target/release/deps/libserde-c93756b2a1271067.rlib: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/integer128.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/mod.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/de.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/ser.rs /Users/denismijatovic/vault7418/spl-token/target/release/build/serde-82c0ae180a45df8e/out/private.rs
+
+/Users/denismijatovic/vault7418/spl-token/target/release/deps/serde-c93756b2a1271067.d: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/integer128.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/mod.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/de.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/ser.rs /Users/denismijatovic/vault7418/spl-token/target/release/build/serde-82c0ae180a45df8e/out/private.rs
+
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/lib.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/integer128.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/mod.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/de.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.225/src/private/ser.rs:
+/Users/denismijatovic/vault7418/spl-token/target/release/build/serde-82c0ae180a45df8e/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/denismijatovic/vault7418/spl-token/target/release/build/serde-82c0ae180a45df8e/out

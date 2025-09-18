@@ -1,0 +1,20 @@
+[package]
+name = "nine_lives"
+version = "0.1.0"
+edition = "2021"
+description = "Nine Lives SPL token program skeleton (Anchor)"
+
+[lib]
+name = "nine_lives"
+crate-type = ["cdylib", "lib"]
+
+[features]
+default = []
+idl-build = ["anchor-lang/idl-build"]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+
+[dependencies]
+anchor-lang = "0.31.1"
+# No direct Token-2022 crate to avoid pulling confidential/metadata deps

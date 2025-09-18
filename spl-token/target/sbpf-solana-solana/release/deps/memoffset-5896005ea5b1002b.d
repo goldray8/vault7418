@@ -1,0 +1,10 @@
+/Users/denismijatovic/vault7418/spl-token/target/sbpf-solana-solana/release/deps/libmemoffset-5896005ea5b1002b.rmeta: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/raw_field.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/offset_of.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/span_of.rs
+
+/Users/denismijatovic/vault7418/spl-token/target/sbpf-solana-solana/release/deps/libmemoffset-5896005ea5b1002b.rlib: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/raw_field.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/offset_of.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/span_of.rs
+
+/Users/denismijatovic/vault7418/spl-token/target/sbpf-solana-solana/release/deps/memoffset-5896005ea5b1002b.d: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/raw_field.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/offset_of.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/span_of.rs
+
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/lib.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/raw_field.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/offset_of.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/span_of.rs:

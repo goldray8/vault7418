@@ -1,0 +1,26 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+nine_lives = "11111111111111111111111111111111"
+
+[programs.devnet]
+nine_lives = "82a6CEiJSU8Mz48m5bDr28HfWaefWAQT9KggsJ64i66D"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/denismijatovic/.config/solana/id.json"
+
+[scripts]
+test = "node"
+# Loads variables from .env and prints them to verify availability
+init_env = "bash -lc 'set -a; [ -f .env ] && source .env; node scripts/init-env.js'"
+send_init = "node -r ts-node/register scripts/send-initialize.ts"
+show_config = "node -r ts-node/register scripts/show-config.ts"
+
+[toolchain]
+anchor_version = "0.31.1"

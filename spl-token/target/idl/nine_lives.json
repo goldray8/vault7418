@@ -1,0 +1,494 @@
+{
+  "address": "2DxkZ3ZBp3uHGywahdDK7NhmW2LPCJJ7E9KdBy12xp7U",
+  "metadata": {
+    "name": "nine_lives",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Nine Lives SPL token program skeleton (Anchor)"
+  },
+  "instructions": [
+    {
+      "name": "add_exempt",
+      "discriminator": [
+        170,
+        72,
+        81,
+        28,
+        225,
+        107,
+        65,
+        163
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "args": [
+        {
+          "name": "addr",
+          "type": "pubkey"
+        }
+      ]
+    },
+    {
+      "name": "add_lp_account",
+      "discriminator": [
+        226,
+        135,
+        27,
+        248,
+        157,
+        250,
+        99,
+        211
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "args": [
+        {
+          "name": "lp_token_account",
+          "type": "pubkey"
+        }
+      ]
+    },
+    {
+      "name": "burn",
+      "discriminator": [
+        116,
+        110,
+        29,
+        56,
+        107,
+        219,
+        42,
+        93
+      ],
+      "accounts": [
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "ritual_vault",
+          "signer": true
+        },
+        {
+          "name": "vault_token",
+          "writable": true
+        },
+        {
+          "name": "mint"
+        },
+        {
+          "name": "token_program"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "initialize",
+      "discriminator": [
+        175,
+        175,
+        109,
+        31,
+        13,
+        152,
+        155,
+        237
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "founder_wallet",
+          "type": "pubkey"
+        },
+        {
+          "name": "marketing_wallet",
+          "type": "pubkey"
+        },
+        {
+          "name": "ritual_vault_wallet",
+          "type": "pubkey"
+        }
+      ]
+    },
+    {
+      "name": "lock_mint_authority",
+      "discriminator": [
+        145,
+        150,
+        30,
+        248,
+        111,
+        112,
+        220,
+        159
+      ],
+      "accounts": [
+        {
+          "name": "mint",
+          "writable": true
+        },
+        {
+          "name": "mint_authority",
+          "signer": true
+        },
+        {
+          "name": "token_program"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "remove_exempt",
+      "discriminator": [
+        245,
+        40,
+        254,
+        205,
+        149,
+        112,
+        101,
+        188
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "args": [
+        {
+          "name": "addr",
+          "type": "pubkey"
+        }
+      ]
+    },
+    {
+      "name": "remove_lp_account",
+      "discriminator": [
+        157,
+        3,
+        64,
+        119,
+        252,
+        188,
+        108,
+        187
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "args": [
+        {
+          "name": "lp_token_account",
+          "type": "pubkey"
+        }
+      ]
+    },
+    {
+      "name": "transfer_with_tax",
+      "discriminator": [
+        151,
+        252,
+        82,
+        111,
+        108,
+        200,
+        32,
+        194
+      ],
+      "accounts": [
+        {
+          "name": "from_authority",
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "writable": true
+        },
+        {
+          "name": "to",
+          "writable": true
+        },
+        {
+          "name": "founder_token",
+          "writable": true
+        },
+        {
+          "name": "marketing_token",
+          "writable": true
+        },
+        {
+          "name": "mint"
+        },
+        {
+          "name": "token_program"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Config",
+      "discriminator": [
+        155,
+        12,
+        170,
+        224,
+        30,
+        250,
+        204,
+        130
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "Unauthorized",
+      "msg": "Unauthorized"
+    },
+    {
+      "code": 6001,
+      "name": "InvalidAmount",
+      "msg": "Invalid amount"
+    },
+    {
+      "code": 6002,
+      "name": "InvalidMint",
+      "msg": "Invalid mint for token account"
+    },
+    {
+      "code": 6003,
+      "name": "TaxSplitMismatch",
+      "msg": "Tax split mismatch"
+    },
+    {
+      "code": 6004,
+      "name": "InsufficientNetAmount",
+      "msg": "Insufficient amount after tax"
+    },
+    {
+      "code": 6005,
+      "name": "MathOverflow",
+      "msg": "Math overflow"
+    }
+  ],
+  "types": [
+    {
+      "name": "Config",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "authority",
+            "type": "pubkey"
+          },
+          {
+            "name": "founder_wallet",
+            "type": "pubkey"
+          },
+          {
+            "name": "marketing_wallet",
+            "type": "pubkey"
+          },
+          {
+            "name": "ritual_vault_wallet",
+            "type": "pubkey"
+          },
+          {
+            "name": "tax_bps",
+            "type": "u16"
+          },
+          {
+            "name": "founder_bps",
+            "type": "u16"
+          },
+          {
+            "name": "marketing_bps",
+            "type": "u16"
+          },
+          {
+            "name": "exempt",
+            "type": {
+              "vec": "pubkey"
+            }
+          },
+          {
+            "name": "lp_token_accounts",
+            "type": {
+              "vec": "pubkey"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

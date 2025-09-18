@@ -1,0 +1,9 @@
+/Users/denismijatovic/vault7418/spl-token/target/sbpf-solana-solana/release/deps/libsolana_loader_v4_interface-59f2f187c51705b7.rmeta: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs
+
+/Users/denismijatovic/vault7418/spl-token/target/sbpf-solana-solana/release/deps/libsolana_loader_v4_interface-59f2f187c51705b7.rlib: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs
+
+/Users/denismijatovic/vault7418/spl-token/target/sbpf-solana-solana/release/deps/solana_loader_v4_interface-59f2f187c51705b7.d: /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs /Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs
+
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/lib.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/instruction.rs:
+/Users/denismijatovic/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v4-interface-2.2.1/src/state.rs:

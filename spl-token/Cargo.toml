@@ -1,0 +1,17 @@
+[workspace]
+members = [
+  "programs/nine_lives",
+]
+resolver = "2"
+
+[profile.release]
+overflow-checks = true
+opt-level = "s"
+lto = "fat"
+codegen-units = 1
+debug = false
+
+[patch.crates-io]
+anchor-lang = { git = "https://github.com/coral-xyz/anchor", tag = "v0.31.1" }
+anchor-syn = { git = "https://github.com/coral-xyz/anchor", tag = "v0.31.1" }
+anchor-derive-space = { git = "https://github.com/coral-xyz/anchor", tag = "v0.31.1" }
