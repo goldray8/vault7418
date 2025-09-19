@@ -74,7 +74,7 @@ const Claims: CollectionConfig = {
           required: true,
         },
         {
-          name: 'fullAmount',
+          name: 'fullAllocation',
           type: 'number',
           required: false,
         },

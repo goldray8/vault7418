@@ -156,6 +156,7 @@ export interface Claim {
     rarity: string;
     allocation: number;
     fullAmount?: number | null;
+    fullAllocation?: number | null;
     id?: string | null;
   }[];
   tokenAmount: number;
@@ -907,6 +908,7 @@ export interface ClaimsSelect<T extends boolean = true> {
         tokenId?: T;
         rarity?: T;
         allocation?: T;
+        fullAmount?: T;
         id?: T;
       };
   tokenAmount?: T;

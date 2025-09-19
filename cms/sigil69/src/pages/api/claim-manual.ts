@@ -86,11 +86,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           tokenId,
           rarity: tier,
           allocation: Math.floor(amount * VESTING_PERCENT), // TGE unlocked
-          fullAmount: amount, // full per-NFT allocation
+          fullAllocation: amount, // full per-NFT allocation
         }
       })
 
-    const totalAmount = eligible.reduce((sum, nft) => sum + nft.fullAmount, 0)
+    const totalAmount = eligible.reduce((sum, nft) => sum + nft.fullAllocation, 0)
 
     if (eligible.length === 0 || totalAmount === 0) {
       return res.status(403).json({ error: 'No eligible NFTs found' })
@@ -106,7 +106,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           tokenId: n.tokenId,
           rarity: n.rarity,
           allocation: n.allocation,
-          fullAmount: n.fullAmount,
+          fullAllocation: n.fullAllocation,
         })),
         tokenAmount: totalAmount, // store full per-NFT sum; UI cells compute vesting slices
         phase: CURRENT_PHASE,
