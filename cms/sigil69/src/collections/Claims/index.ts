@@ -102,6 +102,17 @@ const Claims: CollectionConfig = {
         },
       },
     },
+    // Read-only summary table of claimed phases for the edit view
+    {
+      name: 'claimedPhasesView',
+      type: 'ui',
+      admin: {
+        label: 'Claimed Phases',
+        components: {
+          Field: '@/collections/Claims/components/ClaimedPhasesTable',
+        },
+      },
+    },
     {
       name: 'tokenAmount',
       type: 'number',

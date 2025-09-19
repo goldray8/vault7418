@@ -150,6 +150,13 @@ export interface UserAuthOperations {
 export interface Claim {
   id: string;
   ethWallet: string;
+  claimedPhases?: {
+    phase: string;
+    claimedAt?: string | null;
+    tokens?: number | null;
+    tx?: string | null;
+    id?: string | null;
+  }[];
   solWallet: string;
   claimedNFTs: {
     tokenId: number;
@@ -160,12 +167,6 @@ export interface Claim {
   }[];
   tokenAmount: number;
   phase: string;
-  claimedPhases?: {
-    phase?: string | null;
-    claimedAt?: string | null;
-    tx?: string | null;
-    id?: string | null;
-  }[];
   claimedTGE?: boolean | null;
   claimedMonth1?: boolean | null;
   claimedMonth2?: boolean | null;
@@ -906,6 +907,14 @@ export interface PayloadMigration {
  */
 export interface ClaimsSelect<T extends boolean = true> {
   ethWallet?: T;
+  claimedPhases?:
+    | T
+    | {
+        phase?: T;
+        claimedAt?: T;
+        tx?: T;
+        id?: T;
+      };
   solWallet?: T;
   claimedNFTs?:
     | T
