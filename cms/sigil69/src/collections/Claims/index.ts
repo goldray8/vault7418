@@ -44,6 +44,17 @@ const Claims: CollectionConfig = {
       required: true,
     },
     {
+      name: 'claimedPhases',
+      type: 'array',
+      required: false,
+      defaultValue: [],
+      fields: [
+        { name: 'phase', type: 'text' }, // e.g. "TGE", "Month1"
+        { name: 'claimedAt', type: 'date' },
+        { name: 'tx', type: 'text' }, // optional tx hash
+      ],
+    },
+    {
       name: 'solWallet',
       type: 'text',
       required: true,

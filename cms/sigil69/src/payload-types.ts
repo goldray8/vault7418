@@ -155,12 +155,17 @@ export interface Claim {
     tokenId: number;
     rarity: string;
     allocation: number;
-    fullAmount?: number | null;
     fullAllocation?: number | null;
     id?: string | null;
   }[];
   tokenAmount: number;
   phase: string;
+  claimedPhases?: {
+    phase?: string | null;
+    claimedAt?: string | null;
+    tx?: string | null;
+    id?: string | null;
+  }[];
   claimedTGE?: boolean | null;
   claimedMonth1?: boolean | null;
   claimedMonth2?: boolean | null;
@@ -908,7 +913,7 @@ export interface ClaimsSelect<T extends boolean = true> {
         tokenId?: T;
         rarity?: T;
         allocation?: T;
-        fullAmount?: T;
+        fullAllocation?: T;
         id?: T;
       };
   tokenAmount?: T;
